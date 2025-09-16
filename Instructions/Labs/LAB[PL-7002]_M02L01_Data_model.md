@@ -41,7 +41,6 @@ In this lab you will create Dataverse tables and columns.
 
 1. Enter `Opportunity` for **Display name**.
 
-
 ### Task 1.2 - Primary column
 
 1. Select **Primary column** tab next to **Properties** tab.
@@ -51,7 +50,6 @@ In this lab you will create Dataverse tables and columns.
 1. Enter `Opportunity Subject` for **Display name**.
 
 1. Select **Save**.
-
 
 ### Task 1.3 - Add columns
 
@@ -111,18 +109,17 @@ In this lab you will create Dataverse tables and columns.
 1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
 
    1. Display name: `Notes`
-   1. Data type: **Multiple lines of text**
+   1. Data type: **Text** > **Multiple lines of text** > **Plain text**
    1. Format: **Text**
    1. Required: **Optional**
 
 1. Select **Save**.
 
-
 ### Task 1.4 - Add choice column
 
 1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
 
-   1. Display name: `Status`
+   1. Display name: `Opportunity Status`
    1. Data type: **Choice** > **Choice**
    1. Required: **Optional**
 
@@ -140,7 +137,6 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
-
 ## Exercise 2 – Create relationship
 
 ### Task 2.1 - Create a lookup column
@@ -156,7 +152,7 @@ In this lab you will create Dataverse tables and columns.
 1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
 
    1. Display name: `Account`
-   1. Data type: **Lookup**
+   1. Data type: **Lookup** > **Lookup**
    1. Required: **Optional**
    1. Related table: **Account**
 
@@ -185,7 +181,7 @@ In this lab you will create Dataverse tables and columns.
    1. Customer: `Adventure Works`
    1. Estimated Close Date: **Pick a date in the previous month**
    1. Amount: `10,000`
-   1. Status: **Closed**
+   1. Opportunity Status: **Closed**
 
 1. Select **Insert row below** and enter or select the following values:
 
@@ -193,7 +189,7 @@ In this lab you will create Dataverse tables and columns.
    1. Owner Name: `MOD Administrator`
    1. Customer: `Fabrikam`
    1. Estimated Close Date: **Pick a future date in the current month**
-   1. Status: **New**
+   1. Opportunity Status: **New**
    1. Amount: `50,000`
 
 1. Select **Insert row below** and enter or select the following values:
@@ -203,7 +199,7 @@ In this lab you will create Dataverse tables and columns.
    1. Customer: `Coho Winery`
    1. Estimated Close Date: **Pick a future date in the next month**
    1. Amount: `25,000`
-   1. Status: **New**
+   1. Opportunity Status: **New**
 
 1. Select **Insert row below** and enter or select the following values:
 
@@ -212,7 +208,7 @@ In this lab you will create Dataverse tables and columns.
    1. Customer: `Fourth Coffee`
    1. Estimated Close Date: **Pick a future date in the next month**
    1. Amount: `15,000`
-   1. Status: **Open**
+   1. Opportunity Status: **Open**
 
     ![Screenshot of edit data pane.](../media/edit-data.png)
 

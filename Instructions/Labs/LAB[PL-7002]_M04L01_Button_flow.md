@@ -43,7 +43,6 @@ In this lab you will create a button flow.
 
 1. Select **Create**.
 
-
 ### Task 1.2 - Add user input
 
 1. Select the **Manually trigger a flow** step.
@@ -74,7 +73,6 @@ In this lab you will create a button flow.
 
     ![Screenshot of user input.](../media/user-input.png)
 
-
 ### Task 1.3 - Add create opportunity action
 
 1. Select the **+** icon under the trigger step and select **Add an action**.
@@ -97,19 +95,15 @@ In this lab you will create a button flow.
 
 1. Select **Customer Name**.
 
+1. Select **Opportunity Subject** field and enter `New opportunity`
+
 1. Select **Owner Name** field and enter `MOD Administrator`
 
 1. Select **Show all**.
 
-1. Select **Opportunity Subject** field and enter `New opportunity`
-
 1. Enter `/` into the **Amount** field and select **Insert dynamic content**.
 
 1. Select **Potential Sale**.
-
-1. Select **Notes** field and select the Dynamic content icon and select **See more**.
-
-1. Select **Comments**.
 
 1. Enter `/` into the **Estimated Close Date** field and select **Insert expression**.
 
@@ -117,8 +111,11 @@ In this lab you will create a button flow.
 
     ![Screenshot of new opportunity action.](../media/new-opportunity-action.png)
 
-1. Select **Save**.
+1. Select **Notes** field and select the Dynamic content icon and select **See more**.
 
+1. Select **Comments**.
+
+1. Select **Save**.
 
 ## Exercise 2 – Test button flow
 
@@ -144,7 +141,6 @@ In this lab you will create a button flow.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
-
 ### Task 2.2 - Verify opportunity record created
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
@@ -154,4 +150,3 @@ In this lab you will create a button flow.
 1. In the left navigation pane, select **Tables**.
 
 1. Select **Opportunity**.
-

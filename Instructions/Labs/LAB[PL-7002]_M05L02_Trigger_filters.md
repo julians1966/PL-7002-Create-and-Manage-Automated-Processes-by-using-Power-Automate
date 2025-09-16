@@ -38,7 +38,7 @@ In this lab you will filter on an update trigger.
 
 1. Under **Schema**, select **Columns**.
 
-1. Select the **Status** column.
+1. Select the **Opportunity Status** column.
 
     ![Screenshot of status columns.](../media/opportunity-status-column.png)
 
@@ -48,8 +48,7 @@ In this lab you will filter on an update trigger.
 
 1. Copy the **Logical name** for use in the flow.
 
-   > **Note:** The prefix for your Status column may be different.
-
+   > **Note:** The prefix for your Opportunity Status column may be different.
 
 ## Exercise 2 – Create automated flow
 
@@ -71,7 +70,6 @@ In this lab you will filter on an update trigger.
 
 1. Select **Create**.
 
-
 ### Task 2.2 - Configure the trigger
 
 1. Select the **When a row is added, modified, or deleted** step.
@@ -86,7 +84,6 @@ In this lab you will filter on an update trigger.
 
     ![Screenshot of update row trigger.](../media/update-trigger.png)
 
-
 ### Task 2.3 - Send email
 
 1. Select the **+** icon under the trigger step and select **Add an action**.
@@ -97,7 +94,7 @@ In this lab you will filter on an update trigger.
 
 1. Select **Send an email (V2)** step name and enter `Notify by email`
 
-1. Select **To** field and select **Enter custom value**.
+1. Select **To** field and enter `MOD Administrator`.
 
 1. Enter your tenant user id for **To**.
 
@@ -109,25 +106,19 @@ In this lab you will filter on an update trigger.
 
 1. Select **Body** field and select the Dynamic content icon and select **See more**.
 
-1. Select **Status** from **Opportunity changed**.
-
+1. Select **Opportunity Status** from **Opportunity changed**.
 
 ### Task 2.4 - Column filter
 
 1. Select the **Opportunity changed** trigger step.
 
-1. Select **Show all**
-
-1. Select the **Select Columns** field and enter the **Logical name** from the previous exercise, for example: `cr977_status`
+1. Select the **Select Columns** field and enter the **Logical name** from the previous exercise, for example: `cr977_opportunitystatus`
 
    > **Note:** The prefix for your status column will be different.
-
 
 ### Task 2.5 - Row filter
 
 1. Select the **Opportunity changed** step.
-
-1. Select **Show all**
 
 1. Select the **Filter Rows** field and enter `cr977_status eq 3` using the **Logical name** from the previous exercise.
 
@@ -138,4 +129,3 @@ In this lab you will filter on an update trigger.
 1. Select **Save**.
 
 1. Select the **<-** **Back** button from the top left of the command bar.
-
