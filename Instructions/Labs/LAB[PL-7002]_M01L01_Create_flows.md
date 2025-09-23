@@ -9,6 +9,7 @@ lab:
 In this lab you will create cloud flows.
 
 ## What you will learn
+
 - How to create Power Automate cloud flows from a template and with Copilot
 - How to create a Power Automate cloud flow from blank and add actions
 
@@ -59,12 +60,13 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow details.](../media/flow-details.png)
 
-
 ### Task 1.2 - Run the flow
 
 1. Select **Run**.
 
 1. If prompted, select **Allow** for **Know your location**
+
+    ![Screenshot of location popup.](../media/allow-location.png)
 
 1. Select **Continue**.
 
@@ -72,12 +74,17 @@ In this lab you will create cloud flows.
 
 1. Select **Done**.
 
-    ![Screenshot of flow run history.](../media/run-history.png)
+1. Wait for the flow to complete.
 
+    ![Screenshot of flow run history.](../media/flow-run-history.png)
 
 ### Task 1.3 - Review the flow
 
 1. Select the date and time in the flow run history.
+
+1. Expand the **Condition**.
+
+1. Expand the **False** path.
 
     ![Screenshot of flow run detail.](../media/flow-run-collapsed.png)
 
@@ -85,14 +92,13 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow run step output.](../media/flow-run-step.png)
 
-1. Select **Edit**.
+1. Select **Edit** and expand the flow steps.
 
 1. Select one of the **Send a push notification** steps.
 
 1. Select **Flow checker**. There should be no errors or warnings.
 
 1. Close the **Flow checker** pane.
-
 
 ### Task 1.4 - Test the flow
 
@@ -104,12 +110,11 @@ In this lab you will create cloud flows.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
-
 ## Exercise 2 – Create a cloud flow with Copilot
 
 ### Task 2.1 - Enter a prompt
 
-1. Navigate to the Power Automate portal `https://make.powerautomate.com` 
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -125,10 +130,11 @@ In this lab you will create cloud flows.
 
 1. Select **Keep it and continue**.
 
+    ![Screenshot of Copilot review page.](../media/copilot-review.png)
+
 1. Select **Create flow**.
 
     ![Screenshot of flow created by Copilot.](../media/copilot-flow.png)
-
 
 ### Task 2.2 - Configure flow step
 
@@ -136,18 +142,25 @@ In this lab you will create cloud flows.
 
 1. Enter `Seattle` for **Location**.
 
-1. Select the **X** to clear **Units** and in the drop-down select **Imperial**.
+1. In the **Units** drop-down, select **Imperial**.
 
     ![Screenshot of flow step parameters.](../media/flow-step-parameters.png)
 
 1. Select **Save**.
 
-1. To test the flow, select **Test**, select **Manually**, and then select **Test**. 
+1. If an error is displayed for the *shared_msnweather* connection, select the icon in the bottom-right of the **Get forecast for today** action, select **Change connection reference**, select **Add new**, select **Create new**, and select **Save**.
+
+    ![Screenshot of Get forecast for today action.](../media/msn-connection.png)
+
+1. If an error is displayed for the *shared_office365users* connection, select the icon in the bottom-right of the **Get my profile** action, select **Change connection reference**, select **Add new**, select **Sign in**, and select **Save**.
+
+1. If still have errors with the connections, select the **<-** Back button from the top left of the command bar and restart this exercise.
+
+1. To test the flow, select **Test**, select **Manually**, and then select **Test**.
 
 1. Select **Run flow** and then select **Done**.
 
 1. Select the **<-** Back button from the top left of the command bar.
-
 
 ## Exercise 3 – Create a cloud flow from blank
 
@@ -171,7 +184,6 @@ In this lab you will create cloud flows.
 
 1. Select **Create**.
 
-
 ### Task 3.2 - Configure the trigger
 
 1. Select the **When a new email arrives (V3)** step.
@@ -185,7 +197,6 @@ In this lab you will create cloud flows.
 1. Select **High** for **Importance**.
 
 1. Select **Inbox** for **Folder**.
-
 
 ### Task 3.3 - Add an action
 
@@ -207,7 +218,7 @@ In this lab you will create cloud flows.
 
 1. Enter your tenant user id for **Recipient**.
 
-1. Enter `/` in the **Notification Text** field and select **Insert Dynamic Content**.
+1. Enter `/` in the **Notification Text** field and select **Insert dynamic content**.
 
     ![Screenshot of dynamic content.](../media/flow-dynamic-content.png)
 
@@ -220,7 +231,6 @@ In this lab you will create cloud flows.
 1. Select **Save**.
 
 1. Select the **<-** Back button from the top left of the command bar.
-
 
 ## Exercise 4 – Monitor flows
 
@@ -236,9 +246,10 @@ In this lab you will create cloud flows.
 
 1. Select **Discover all** and search for **Cloud flow activity** under Monitor section.
 
+    ![Screenshot of more options for Power Automate portal.](../media/discover-cloud-flow-activity.png)
+
 1. Select the pin icon for **Cloud flow activity**.
 
 1. Select the **Cloud flow activity** tab from the left-side menu.
 
     ![Screenshot of cloud flow activity.](../media/cloud-flow-activity.png)
-

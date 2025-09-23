@@ -31,6 +31,8 @@ In this lab you will create a SharePoint site and list.
 
 1. Select the **App launcher** in the top left of the browser window and then select **SharePoint**.
 
+    ![Screenshot of app launcher to start SharePoint.](../media/app-launcher.png)
+
 1. If the **Welcome to SharePoint Start Page** pop-up dialog is displayed, select **X** to close the dialog.
 
 1. In SharePoint, select **+ Create site**.
@@ -100,7 +102,6 @@ In this lab you will create a SharePoint site and list.
 
 1. Copy the first part of the URL of the SharePoint site, for example `https://m365x99999999.sharepoint.com/sites/PowerAutomate/`
 
-
 ## Exercise 2 – Add data SharePoint list
 
 ### Task 2.1 - Add data
@@ -134,4 +135,3 @@ In this lab you will create a SharePoint site and list.
    1. Approval Status=**New**
 
     ![Screenshot of the SharePoint Tasks data.](../media/tasks-data.png)
-

@@ -38,6 +38,8 @@ In this exercise, you will verify that you can access Power Apps.
 
 1. Optionally, select **Yes** to stay signed in.
 
+1. Optionally, select No, thanks to sign in to Microsoft Edge.
+
 1. If prompted for contact information, leave the Country/region as the default value and enter `0123456789` for Phone number and select **Submit**.
 
 1. At the top right of the screen, verify that the **Environment** is set to **Dev One**. This is where you will be working for the entirety of this lab. If it is not, select the **Dev One** environment.
@@ -65,6 +67,10 @@ In this exercise, you will verify that you can access a team in Microsoft Teams.
 1. In a new browser tab, navigate to `https://teams.microsoft.com`
 
 1. If prompted to Get to know Teams, select **Get Started** and close the popup window.
+
+1. Expand **Teams and channel**.
+
+1. Select **See all your teams**.
 
 ### Task 2.2 – Create a team
 
