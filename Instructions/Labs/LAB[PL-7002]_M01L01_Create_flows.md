@@ -204,29 +204,27 @@ In this lab you will create cloud flows.
 
 1. If prompted, select **Allow** for **See text and images copied to clipboard**.
 
-1. Enter `notification` in search.
+1. Enter `post message` in search.
 
     ![Screenshot of action search.](../media/search-action.png)
 
-1. Select **Post a feed notification** under **Microsoft Teams**.
+1. Select **Post message in a chat or channel** under **Microsoft Teams**.
 
 1. Select **Sign in**.
 
 1. Use your tenant credentials.
 
-1. Select **Team** for **Notification Type**.
+1. Select **Flow bot** for **Post as**.
+
+1. Select **Chat with Flow bot** for **Post in**.
 
 1. Enter your tenant user id for **Recipient**.
 
-1. Enter `/` in the **Notification Text** field and select **Insert dynamic content**.
-
-    ![Screenshot of dynamic content.](../media/flow-dynamic-content.png)
+1. Enter `/` in the **Message** field and select **Insert dynamic content**.
 
 1. Select **Subject**.
 
-1. Select **Contoso** for **Team**.
-
-1. Select **General** for **Channel**.
+    ![Screenshot of dynamic content.](../media/flow-dynamic-content.png)
 
 1. Select **Save**.
 
